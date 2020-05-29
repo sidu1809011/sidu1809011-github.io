@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    max-width: 1000px;
+    height: 5020px;
+    background-color: rgb(78, 239, 242);
+    margin: 0 auto;
+    padding:20px;
+    
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border:2px solid rgb(20, 250, 116) ;
+    border-radius: 100%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+.add  {
+   
+    float:right;
+    padding:30px;
+    font-weight: bold;
+}
+.add a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.add a {
+    text-decoration: none;
+    color: teal;
+}
+
+
+ h1,h2,h3,h4,h5,h6{ 
+    color: #af0b21; 
+
+
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float:right;
+
+}
+.common-hr{
+    border: solid black 3px;
+    margin: 20px auto ;
+    border-bottom: none;
+    width: 100%;
+
+
+}
+.bottom {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: blanchedalmond;
+
+
+}
+
+.bottom a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+
+
+}
+.bottom p{
+    
+    color: white;
+    margin-top: 20px;
+
+
+}
+.bottom a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+
+
+}
